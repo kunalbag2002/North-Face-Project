@@ -1,5 +1,5 @@
 import { cn } from '@/lib/utils'
-import BadgeButton from '../ui/badge-button'
+
 import { SkiperCard } from '../ui/skiper-card'
 import card9 from '/public/images/boot1.avif'
 import card4 from '/public/images/tab1.avif'
@@ -12,7 +12,7 @@ const SpecialCard = () => {
     return (
         <div className='my-20'>
             <div className='w-[61.5%] mx-auto'>
-                <BadgeButton>Component Preview</BadgeButton>
+
                 <h2 className='text-center font-bold text-6xl mt-8'>Gear built for every adventure</h2>
                 <h5 className='text-center font-bold text-3xl mb-8'>Everything you need to ship</h5>
                 <SkiperCard
@@ -63,3 +63,4 @@ const SpecialCard = () => {
 }
 
 export default SpecialCard
+

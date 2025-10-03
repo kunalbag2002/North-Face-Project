@@ -1,9 +1,14 @@
-import React from "react"
-import { IceCreamCone, SparklesIcon } from "lucide-react"
+import { IceCreamCone } from "lucide-react"
 
 import { Badge } from "@/components/ui/badge"
 
-const BadgeButton = ({children}) => {
+import { ReactNode } from "react"
+
+interface BadgeButtonProps {
+  children: ReactNode
+}
+
+const BadgeButton = ({ children }: BadgeButtonProps) => {
   return (
     <Badge
       variant="outline"
@@ -15,4 +20,3 @@ const BadgeButton = ({children}) => {
   )
 }
 
-export default BadgeButton

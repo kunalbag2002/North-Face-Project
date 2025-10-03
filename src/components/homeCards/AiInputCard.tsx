@@ -1,5 +1,5 @@
 import React from 'react'
-import BadgeButton from '../ui/badge-button'
+import { BadgeButton } from '../ui/badge-button'
 import AiInput from '../ui/ai-input'
 
 const AiInputCard = () => {
@@ -15,5 +15,6 @@ const AiInputCard = () => {
 
     )
 }
+
 
 export default AiInputCard
